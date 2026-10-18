@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BrowserLens AI Privacy Policy</title>
+<style>
+:root{color-scheme:light;--ink:#13233f;--muted:#526580;--line:#dce6f2;--blue:#1463e8;--bg:#f4f8fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}main{max-width:900px;margin:40px auto;padding:36px 42px;background:white;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 36px #19335c0c}h1{font-size:2.1rem;line-height:1.2;margin:0 0 8px}h2{font-size:1.2rem;margin-top:30px}p,li{color:#263b58}.meta{color:var(--muted);margin:0 0 28px}.notice{padding:16px 18px;border:1px solid #c6dcff;border-radius:12px;background:#f2f7ff}.contact{padding:14px 16px;background:#f7f9fc;border-radius:10px;overflow-wrap:anywhere}a{color:var(--blue)}footer{border-top:1px solid var(--line);margin-top:32px;padding-top:18px;color:var(--muted);font-size:.9rem}@media(max-width:640px){main{margin:0;padding:24px 18px;border-radius:0}h1{font-size:1.7rem}}
+</style>
+</head>
+<body><main>
+<h1>Privacy Policy for BrowserLens AI</h1>
+<p class="meta">Last updated: October 19, 2026 · Extension version: 0.4.4</p>
+<div class="notice"><strong>Local processing.</strong> BrowserLens AI processes browser and webpage diagnostic information on your device. The extension does not send that diagnostic information to a developer-operated server and does not include analytics or advertising trackers.</div>
+<h2>1. What BrowserLens AI does</h2>
+<p>BrowserLens AI is a browser compatibility and policy diagnostics extension. It observes diagnostic signals from supported webpages and compares them with a bundled or user-imported local knowledge base to help explain compatibility, resource-loading, JavaScript, content-security-policy, and related enterprise-policy signals.</p>
+<h2>2. Information processed</h2>
+<p>To provide its diagnostics, the extension may process and store the following information locally:</p>
+<ul>
+<li>Page URL and title, capture time, document readiness, browser user-agent string, language, platform, and viewport dimensions.</li>
+<li>JavaScript error messages and source locations, unhandled promise-rejection messages, and content-security-policy violation details.</li>
+<li>Resource URLs and timing metadata, resource types, and related element metadata when a resource-loading error is observed.</li>
+<li>Limited page-structure signals, including counts of forms, scripts, and frames; insecure form-action URLs; mixed-content resource URLs; external script URLs; iframe URLs and selected attributes.</li>
+<li>Text used for local feature matching: visible page text and inline script text, subject to size limits in the extension.</li>
+<li>The compatibility knowledge base, user-imported knowledge-base or enterprise-policy data, and diagnostic snapshots associated with browser tabs.</li>
+</ul>
+<p>Website content, URLs, script text, and diagnostic messages can sometimes contain personal, confidential, or otherwise sensitive information. Only use the extension on pages you are authorized to analyze. BrowserLens AI is not designed to read passwords, form field values, cookies, or HTTP request/response bodies; however, visible page text and script content may independently contain sensitive information.</p>
+<h2>3. How information is used</h2>
+<p>The information is used only to provide the extension’s browser compatibility diagnostic purpose: identify diagnostic signals, match possible browser-feature records from the local knowledge base, present evidence and remediation guidance, and create reports when you choose to export them.</p>
+<h2>4. Storage and retention</h2>
+<p>Diagnostic snapshots, the knowledge base, and imported policy data are saved using the browser extension’s local storage on your device. They remain there until they are overwritten or removed through browser extension-data controls or other local data-management actions. Exported JSON or HTML reports are saved by your browser to the location you select and are outside the extension’s control once exported.</p>
+<h2>5. Sharing and transmission</h2>
+<p>BrowserLens AI does not transmit diagnostic snapshots, page text, resource URLs, imported files, or reports to the developer or another remote service. It does not sell user data, use it for advertising, or use it for cross-site profiling. If you export a report and choose to share it, you are responsible for deciding what it contains and who receives it.</p>
+<p>The extension provides links to official Chrome or Microsoft Edge release-note pages. If you choose to open one of these links, your browser connects to that third-party website, which is governed by the respective provider’s policies. The extension itself does not send your diagnostic snapshot to those sites.</p>
+<h2>6. Permissions</h2>
+<ul>
+<li><strong>Host access:</strong> enables diagnostic content scripts to run across webpages because the extension is intended to diagnose different websites and enterprise applications. Page diagnostics are processed locally.</li>
+<li><strong>Storage:</strong> saves local knowledge-base data, imported policy data, and diagnostic snapshots.</li>
+<li><strong>Tabs:</strong> associates diagnostic snapshots with the relevant tab so the side panel can show findings for the active page.</li>
+<li><strong>Side panel:</strong> displays browser details, findings, evidence, and remediation guidance.</li>
+</ul>
+<h2>7. Security</h2>
+<p>BrowserLens AI is designed to keep its diagnostic processing on-device and does not operate a remote collection endpoint. Protect access to your browser profile and take care when exporting or sharing diagnostic reports, since those reports may include URLs, page text, script text, and error details.</p>
+<h2>8. Children</h2>
+<p>BrowserLens AI is a general-purpose browser diagnostic tool and is not specifically directed at children.</p>
+<h2>9. Changes to this policy</h2>
+<p>This policy may be updated if the extension’s functionality or data practices change. The “Last updated” date above will be revised when a new version of this policy is published.</p>
+<h2>10. Contact</h2>
+<div class="contact"><strong>Privacy questions:</strong> Replace this line with the support email address listed for the extension in the Chrome Web Store before publishing this policy.</div>
+<footer>This policy describes BrowserLens AI version 0.4.4. Ensure it remains accurate for the exact extension package submitted to the Chrome Web Store.</footer>
+</main></body></html>
